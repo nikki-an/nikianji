@@ -257,12 +257,14 @@ position: absolute;
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
+    
     align-items: center;
 }
 .hero .hero-img img{
     height: 100%;
     width: 100%;
-   
+    opacity: 90%;
+
 }
 /* about section*/
 .about{
@@ -337,7 +339,9 @@ position: absolute;
 .about .about-img .about-img-wrapper img{
     height: 60%;
     width: 80%;
-
+border: solid;
+border-color: black;
+opacity: 95%;
 }
 
 /* service */
@@ -589,6 +593,8 @@ padding: 10px;
 }
 
 .hire .hire-button:hover{
+    transition: .3s ease background-color;
+
     background-color: white;
     color: black;
 }
@@ -677,7 +683,7 @@ padding: 10px;
         max-width:400px;
     }
     .hero .hero-info .hero-info-heading{
-        font-weight: 500;
+        font-weight: 501;
         letter-spacing: .3rem;
 
     }
@@ -899,7 +905,7 @@ padding: 10px;
 
     }
     .hero .hero-info .hero-info-heading{
-        font-weight: 550;
+        font-weight: 600;
         letter-spacing: .5rem;
 
     }
