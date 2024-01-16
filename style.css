@@ -480,7 +480,7 @@ padding: 10px;
 }
 
 .services .services-info .service .service-card .service-front1{
-    background-image: url("flutter.png");
+    background-image: url("ios.png");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -792,7 +792,7 @@ padding: 10px;
     }
     
     .services .services-info .service .service-card .service-front1{
-        background-image: url("flutter.png");
+        background-image: url("ios.png");
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
